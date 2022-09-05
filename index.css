@@ -1,0 +1,64 @@
+body {
+    background: url("https://images.unsplash.com/photo-1547955922-85912e223015?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80") no-repeat center / cover;
+    box-sizing: border-box;
+    color: hsl(340, 100%, 35%);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    display: grid;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 2em;
+}
+
+.container {
+    background-color: hsla(350, 40%, 85%, .8);
+    border-radius: .5em;
+    filter: contrast(120%);
+    margin: auto;
+    max-width: 35em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 750;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+button {
+    border: none;
+    padding: .8em 1em .7em;
+    color: white;
+    font-weight: 700;
+    min-width: 180px;
+    margin: .6em;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 2px solid hsl(340, 100%, 35%);
+}
+
+#increment-btn {
+    background: hsl(350, 70%, 65%);
+}
+
+#save-btn {
+    background: hsl(10, 70%, 65%);
+}
