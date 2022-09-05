@@ -3,7 +3,8 @@ body {
     box-sizing: border-box;
     color: hsl(340, 100%, 35%);
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    display: grid;
     text-align: center;
     height: 100vh;
     overflow: hidden;
@@ -61,4 +62,3 @@ button:focus {
 #save-btn {
     background: hsl(10, 70%, 65%);
 }
-
