@@ -1,6 +1,5 @@
 body {
     background: url("https://images.unsplash.com/photo-1547955922-85912e223015?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80") no-repeat center / cover;
-    background-attachment: fixed;
     box-sizing: border-box;
     color: hsl(340, 100%, 35%);
     font-family: 'Helvetica Neue', sans-serif;
@@ -12,8 +11,8 @@ body {
 
     /* Mobile viewport height fix for mobile */
 
-    /* overflow: hidden; */
-    padding: 2em;
+    overflow: hidden;
+    padding-inline: 2em;
 }
 
 .container {
