@@ -13,3 +13,9 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+// Mobile viewport height fix
+
+let vh = window.innerHeight * 0.01;
+
+document.documentElement.style.setProperty('--vh', `${vh}px`);

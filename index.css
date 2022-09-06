@@ -7,7 +7,11 @@ body {
     display: grid;
     text-align: center;
     height: 100vh;
-    overflow: hidden;
+    /* height: calc(var(--vh, 1vh) * 100); */
+
+    /* Mobile viewport height fix for mobile */
+
+    /* overflow: hidden; */
     padding: 2em;
 }
 
@@ -41,9 +45,9 @@ button {
     padding: .8em 1em .7em;
     color: white;
     font-weight: 700;
-    min-width: 180px;
+    min-width: 12em;
     margin: .6em;
-    border-radius: 10px;
+    border-radius: .6em;
 }
 
 button:hover {
